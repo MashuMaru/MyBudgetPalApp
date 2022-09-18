@@ -88,6 +88,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "MyBudgetPal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MyBudgetPal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyBudgetPal.dll": {}
+        }
       }
     }
   },
@@ -216,10 +226,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "MyBudgetPal/1.0.0": {
+      "type": "project",
+      "path": "../MyBudgetPal/MyBudgetPal.csproj",
+      "msbuildProject": "../MyBudgetPal/MyBudgetPal.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "MyBudgetPal >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -247,7 +263,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/matthewberenyi/MyBudgetPal_APP/MyBudgetPalApp_API/src/MyBudgetPal/MyBudgetPal.csproj": {
+              "projectPath": "/Users/matthewberenyi/MyBudgetPal_APP/MyBudgetPalApp_API/src/MyBudgetPal/MyBudgetPal.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

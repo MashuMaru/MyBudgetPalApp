@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "MyBudgetPal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MyBudgetPal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyBudgetPal.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MyBudgetPal/1.0.0": {
+      "type": "project",
+      "path": "../MyBudgetPal/MyBudgetPal.csproj",
+      "msbuildProject": "../MyBudgetPal/MyBudgetPal.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "MyBudgetPal >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/matthewberenyi/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/matthewberenyi/MyBudgetPal_APP/MyBudgetPalApp_API/src/MyBudgetPal/MyBudgetPal.csproj": {
+              "projectPath": "/Users/matthewberenyi/MyBudgetPal_APP/MyBudgetPalApp_API/src/MyBudgetPal/MyBudgetPal.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

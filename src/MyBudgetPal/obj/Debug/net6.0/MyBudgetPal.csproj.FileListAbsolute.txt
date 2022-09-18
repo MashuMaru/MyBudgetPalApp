@@ -1,0 +1,12 @@
+/Users/matthewberenyi/MyBudgetPal_APP/MyBudgetPalApp_API/src/MyBudgetPal/bin/Debug/net6.0/MyBudgetPal.deps.json
+/Users/matthewberenyi/MyBudgetPal_APP/MyBudgetPalApp_API/src/MyBudgetPal/bin/Debug/net6.0/MyBudgetPal.dll
+/Users/matthewberenyi/MyBudgetPal_APP/MyBudgetPalApp_API/src/MyBudgetPal/bin/Debug/net6.0/MyBudgetPal.pdb
+/Users/matthewberenyi/MyBudgetPal_APP/MyBudgetPalApp_API/src/MyBudgetPal/obj/Debug/net6.0/MyBudgetPal.csproj.AssemblyReference.cache
+/Users/matthewberenyi/MyBudgetPal_APP/MyBudgetPalApp_API/src/MyBudgetPal/obj/Debug/net6.0/MyBudgetPal.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matthewberenyi/MyBudgetPal_APP/MyBudgetPalApp_API/src/MyBudgetPal/obj/Debug/net6.0/MyBudgetPal.AssemblyInfoInputs.cache
+/Users/matthewberenyi/MyBudgetPal_APP/MyBudgetPalApp_API/src/MyBudgetPal/obj/Debug/net6.0/MyBudgetPal.AssemblyInfo.cs
+/Users/matthewberenyi/MyBudgetPal_APP/MyBudgetPalApp_API/src/MyBudgetPal/obj/Debug/net6.0/MyBudgetPal.csproj.CoreCompileInputs.cache
+/Users/matthewberenyi/MyBudgetPal_APP/MyBudgetPalApp_API/src/MyBudgetPal/obj/Debug/net6.0/MyBudgetPal.dll
+/Users/matthewberenyi/MyBudgetPal_APP/MyBudgetPalApp_API/src/MyBudgetPal/obj/Debug/net6.0/refint/MyBudgetPal.dll
+/Users/matthewberenyi/MyBudgetPal_APP/MyBudgetPalApp_API/src/MyBudgetPal/obj/Debug/net6.0/MyBudgetPal.pdb
+/Users/matthewberenyi/MyBudgetPal_APP/MyBudgetPalApp_API/src/MyBudgetPal/obj/Debug/net6.0/ref/MyBudgetPal.dll
