@@ -18,16 +18,22 @@ public class AuthController : ControllerBase
         _logger = logger;
     }
 
+    [HttpPost]
+    [Route("create")]
+    // TODO: CREATE NEW USER ENDPOINT
+    public Task<IActionResult> CreateNewUser()
+    {
+        // TODO: CREATE NEW USER ENDPOINT
+        return null;
+    }
+
     [HttpGet]
     [Route("login")]
-    public IEnumerable<WeatherForecast> Get()
+    public Task<IActionResult> Login()
     {
-        return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-        {
-            Date = DateTime.Now.AddDays(index),
-            TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-        })
-        .ToArray();
+        // TODO: LOG USER IN
+        return null;
     }
+
+
 }
