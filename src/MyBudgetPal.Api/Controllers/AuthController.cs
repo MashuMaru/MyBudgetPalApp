@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using MyBudgetPal.Models;
 
 namespace MyBudgetPal.Api.Controllers;
 
@@ -6,13 +7,7 @@ namespace MyBudgetPal.Api.Controllers;
 [Route("auth")]
 public class AuthController : ControllerBase
 {
-    private static readonly string[] Summaries = new[]
-    {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
-
     private readonly ILogger<AuthController> _logger;
-
     public AuthController(ILogger<AuthController> logger)
     {
         _logger = logger;
@@ -20,11 +15,15 @@ public class AuthController : ControllerBase
 
     [HttpPost]
     [Route("create")]
-    // TODO: CREATE NEW USER ENDPOINT
-    public Task<IActionResult> CreateNewUser()
+    public HandlerResultModel<Guid> CreateNewUser(NewUserModel model)
     {
-        // TODO: CREATE NEW USER ENDPOINT
-        return null;
+        var specialCode = Guid.NewGuid();
+        return new HandlerResultModel<Guid>()
+        {
+            Data = specialCode,
+            Message = "Successfully created user.",
+            IsSuccessful = true
+        };
     }
 
     [HttpGet]
