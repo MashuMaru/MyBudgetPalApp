@@ -1,7 +1,9 @@
+using MyBudgetPal.Models;
+
 namespace MyBudgetPal.Interfaces
 {
-    public class IAuthHandler
+    public interface IAuthHandler
     {
-        HandlerResultModel<Guid> CreateNewUser(NewUserModel model);
+         Task <HandlerResultModel<Guid>> CreateNewUser(NewUserModel model);
     }
 }

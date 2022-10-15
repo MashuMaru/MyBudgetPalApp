@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <_EnableMacOSCodeSign>false</_EnableMacOSCodeSign>
+    <UserSecretsId>5a7392a4-3f54-4a12-80ee-b77578795482</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
